@@ -1,0 +1,12 @@
+{
+	"$schema": "http://xcdl.github.io/schemas/xindex-1-1.json",
+	"name": "xPacks",
+	"description": "XCDL packages",
+	"homepage": "https://github.com/xpacks/",
+	"packages": [
+		"https://github.com/xpacks/toolchains/raw/xpack/.xpack.json",
+        "https://github.com/xpacks/arm-cmsis/raw/xpack/.xpack.json",
+        "https://github.com/xpacks/stm/raw/xpack/.xpack.json",
+        "https://github.com/xpacks/stm32f7-cmsis/raw/xpack/.xpack.json"
+	]
+}
