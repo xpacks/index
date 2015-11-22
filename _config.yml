@@ -1,0 +1,72 @@
+# Site settings.
+
+# Without a clear rule enforced, both title and name are used.
+title: xPacks Index
+name: xPacks Index
+description: ...
+email: ilg@livius.net
+
+destination: _site
+exclude:
+  - _site_local
+  - README.md
+  - jekyll-build.command
+  - jekyll-serve.command
+  - atom.command
+  - localhost-4000.webloc
+
+# The subpath of your site, e.g. /blog (note the leading slash and the
+# absence of a trailing slash).
+baseurl: "index"
+
+# Used in sitemap.xml
+url: "http://xpacks.github.io/index" # the base hostname & protocol for your site
+
+# This timezone is used to display post dates and last modified messages.
+timezone: UTC
+
+encoding: utf-8
+
+# Default permalink used for posts
+permalink: /blog/:year/:month/:day/:title/
+
+# Currently disabled, since it generates incomplete content.
+# Use manually written RSS feed.xml.
+#   - jekyll-feed
+# {% feed_meta %} in head.html
+
+gems:
+  - jekyll-last-modified-at
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
+# Build settings
+markdown: kramdown
+# markdown: redcarpet
+
+kramdown:
+  input: GFM
+
+# Custom defs
+github-username:  ilg-ul
+
+github-project-name: xpacks
+github-project-url: http://github.com/xpacks
+# sourceforge-project-url: http://sourceforge.net/projects/gnuarmeclipse
+
+# facebook-page: https://facebook.com/gnuarmeclipse/
+
+google-analytics-id: UA-16767008-13
+google-site-verification: NT_y3tqI_8mrd8gYA_FDWHT2-tkJExOC6KBkSnyZx6c
+
+# jekyll-toc-generator
+tocTopTag: h2
+minItemsToShowToc: 3
+useExistingAnchors: true
+
+css-date: 201510051605
+
+# Content copyright. Update it to your needs.
+copyright-message: "© 2015 Liviu Ionescu"
