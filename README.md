@@ -3,7 +3,8 @@
 This project, available from [GitHub](https://github.com/xpacks/index),
 includes the index of all packages available in the **xPacks** repository.
 
-The URL of the index (to be configured in the **xPacks Manager**), is:
+The [URL of the index](http://xpacks.github.io/index/xindex.json)
+(to be configured in the **xPacks Manager**), is:
 
 ```
 http://xpacks.github.io/index/xindex.json
