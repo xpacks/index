@@ -52,8 +52,12 @@ kramdown:
 # Custom defs
 github-username:  ilg-ul
 
-github-project-name: xpacks
-github-project-url: http://github.com/xpacks
+github-parent-project: xpacks
+github-parent-project-title: The xPacks project
+
+github-project-name: index
+github-project-title: xPacks index
+github-project-url: http://github.com/xpacks/index
 # sourceforge-project-url: http://sourceforge.net/projects/gnuarmeclipse
 
 # facebook-page: https://facebook.com/gnuarmeclipse/
